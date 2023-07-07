@@ -1,0 +1,15 @@
+nav .has-children .react-icons {
+    font-size: 25px;
+}
+
+.submenu li.has-children  .subname-react-icons {
+    position: absolute;
+  font-size: 25px;
+    right: 0;
+  -webkit-transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+/* ----- search ------ */
+
