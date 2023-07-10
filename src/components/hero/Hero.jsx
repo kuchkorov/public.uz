@@ -1,5 +1,6 @@
 import React from 'react'
 import './hero.css'
+import {Link} from 'react-router-dom'
 
 function Hero() {
   return (
@@ -15,7 +16,7 @@ function Hero() {
                                     <h1 className="font-weight--reguler mb-30">Public.uz </h1>
                                     <h6 className="info-heading">Turli xil konferensiya maqolalar chop etish va ularga xizmat ko'rsatish bo'yicha xizmatlarning to'liq to'plami. <br /> </h6>
                                     <div className="hero-button  mt-30">
-                                        <a href="#" className="ht-btn ht-btn-md">Batafsil</a>
+                                        <Link to="/about" className="ht-btn ht-btn-md">Batafsil</Link>
                                     </div>
                                 </div>
                             </div>

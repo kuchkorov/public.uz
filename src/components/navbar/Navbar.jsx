@@ -1,5 +1,6 @@
 import React from 'react'
 import './navbar.css'
+import { Link } from 'react-router-dom'
 
 import { BiChevronDown, BiChevronRight, BiSearchAlt2 } from "react-icons/bi";
 
@@ -19,11 +20,11 @@ function Navbar() {
 
                                             <ul>
                                                 <li className="has-children has-children--multilevel-submenu">
-                                                    <a href="#"><span>Bosh sahifa</span></a>
+                                                    <Link to="/"><span>Bosh sahifa</span></Link>
                                                     
                                                 </li>
                                                 <li className="has-children has-children--multilevel-submenu">
-                                                    <a href="#"><span>Jurnal</span><BiChevronDown className='react-icons' /></a>
+                                                    <Link to="/journals"><span>Jurnal</span><BiChevronDown className='react-icons' /></Link>
                                                     <ul className="submenu">
                                                         <li><a href="index-infotechno.html"><span>Jurnal 1</span></a></li>
                                                         <li><a href="index-infotechno.html"><span>Jurnal 2</span></a></li>
@@ -53,7 +54,7 @@ function Navbar() {
                                                     </ul>
                                                 </li>
                                                 <li className="has-children has-children--multilevel-submenu">
-                                                    <a href="#"><span>Blog</span><BiChevronDown className='react-icons' /></a>
+                                                    <Link to="/blog"><span>Blog</span><BiChevronDown className='react-icons' /></Link>
                                                     <ul className="submenu">
                                                         <li><a href="it-services.html"><span>IT Services</span></a></li>
                                                         <li><a href="managed-it-service.html"><span>Managed IT Services</span></a></li>
@@ -63,7 +64,7 @@ function Navbar() {
                                                     </ul>
                                                 </li>
                                                 <li className="has-children">
-                                                    <a href="#"><span>Xizmatlar</span><BiChevronDown className='react-icons' /></a>
+                                                    <Link to="/services"><span>Xizmatlar</span><BiChevronDown className='react-icons' /></Link>
                                                     {/* <!-- mega menu --> */}
                                                     <ul className="megamenu megamenu--mega">
                                                         <li>
@@ -117,7 +118,7 @@ function Navbar() {
                                                     </ul>
                                                 </li>
                                                 <li className="has-children has-children--multilevel-submenu">
-                                                    <a href="#"><span>Aloqa</span><BiChevronDown className='react-icons' /></a>
+                                                    <Link to="/contact"><span>Aloqa</span><BiChevronDown className='react-icons' /></Link>
                                                     {/* <!-- multilevel submenu --> */}
                                                     <ul className="submenu">
                                                         <li><a href="case-studies.html"><span>Case Studies 01</span></a></li>
@@ -150,7 +151,7 @@ function Navbar() {
 
                                 <div className="header-search-form ">
                                     <form action="#" className="search-form-top style-03 ">
-                                        <input className="search-field" type="text" placeholder="Search…"  />
+                                        <input className="search-field" type="text" placeholder="Qidiruv...."  />
                                         <button className="search-submit">
                                         <BiSearchAlt2 className="search-btn-icon" />
                                             

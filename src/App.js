@@ -1,66 +1,38 @@
 import './App.css';
-import Hero from './components/hero/Hero';
-import Indexation from './components/indexation/Indexation';
-import Navbar from './components/navbar/Navbar';
+import { Routes, Route} from 'react-router-dom'
+
 import TopHeader from './components/topheader/TopHeader';
-import Indexation2 from './components/indexation/Indexation2';
-import Journals from './components/journals/Journals';
-import Counter from './components/counter/Counter';
-import Footer from './components/footer/Footer';
+import Navbar from './components/navbar/Navbar';
+import Main from './pages/main/Main';
+import About from './pages/about/About';
+import Journalspage from './pages/journals/Journalspage';
+import Blog from './pages/blog/Blog';
+import Services from './pages/services/Services';
+import Contact from './pages/contact/Contact';
 
 function App() {
   return (
-    <div >
-      {/* <div className="preloader-activate preloader-active open_tm_preloader">
-        <div className="preloader-area-wrap">
-            <div className="spinner d-flex justify-content-center align-items-center h-100">
-                <div className="bounce1"></div>
-                <div className="bounce2"></div>
-                <div className="bounce3"></div>
+    <>
+        <div className="header-area">
+            <div className="header-bottom-wrap">
+                <TopHeader />
+                <Navbar />
+                <Routes>
+                    <Route path='/' element={<Main />} />
+                    <Route path='/about' element={<About />} />
+                    <Route path='/journals' element={<Journalspage />} />
+                    <Route path='/blog' element={<Blog />} />
+                    <Route path='/services' element={<Services />} />
+                    <Route path='/contact' element={<Contact />} />
+                </Routes>
+               
             </div>
         </div>
-    </div> */}
-
-    {/* <!--====================  header area ====================--> */}
-    <div className="header-area">
-
-        {/* <!-- Header Top Wrap Start --> */}
-        {/* <div className="header-top-wrap border-bottom">
-            <div className="container-fluid">
-                <div className="row">
-                    <div className="col-lg-12">
-                        <p className="text-center top-message"><a href="#">Now Hiring:</a> Are you a driven and motivated 1st Line IT Support Engineer?</p>
-                    </div>
-                </div>
-            </div>
-        </div> */}
-        {/* <!-- Header Top Wrap End --> */}
-
-        <div className="header-bottom-wrap">
-            <TopHeader />
-            <Navbar />
-            <Hero />
-            <Indexation2 />
-            <Journals />
-            <Counter />
-            <Footer />
-        </div>
-
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
+    </>
   );
 }
 
 export default App;
+
+
+

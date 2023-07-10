@@ -38,8 +38,8 @@ function TopHeader() {
                                                         <span className="fa fa-phone"><BiPhone /></span>
                                                     </div>
                                                     <div className="info-content">
-                                                        <h6 className="info-title">0122 8899900</h6>
-                                                        <div className="info-sub-title">Info@example.com</div>
+                                                        <h6 className="info-title">(+998) 99-123-45-67</h6>
+                                                        <div className="info-sub-title">info@public.uz</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -49,8 +49,8 @@ function TopHeader() {
                                                         <span className="fa fa-map-marker-alt"><BiSolidMap /></span>
                                                     </div>
                                                     <div className="info-content">
-                                                        <h6 className="info-title">219 Amara Fort Apt. 394</h6>
-                                                        <div className="info-sub-title">New York, NY 941</div>
+                                                        <h6 className="info-title">Pochta qutisi 4464, 100000</h6>
+                                                        <div className="info-sub-title">O'zbekiston, Toshkent</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -60,8 +60,8 @@ function TopHeader() {
                                                         <span className="fa fa-clock"><BiHourglass /></span>
                                                     </div>
                                                     <div className="info-content">
-                                                        <h6 className="info-title">8:00AM - 6:00PM</h6>
-                                                        <div className="info-sub-title">Monday to Saturday</div>
+                                                        <h6 className="info-title">9:00AM - 18:00</h6>
+                                                        <div className="info-sub-title">Dushanbadan Shanbagacha</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -102,15 +102,15 @@ function TopHeader() {
 
                                 </div>
                                 {/* <!-- mobile menu --> */}
-                                <div className="mobile-navigation-icon d-block d-xl-none" id="mobile-menu-trigger">
+                                {/* <div className="mobile-navigation-icon d-block d-xl-none" id="mobile-menu-trigger">
                                     <i></i>
-                                </div>
+                                </div> */}
                                 {/* <!-- hidden icons menu --> */}
-                                <div className="hidden-icons-menu d-block d-md-none" id="hidden-icon-trigger">
+                                {/* <div className="hidden-icons-menu d-block d-md-none" id="hidden-icon-trigger">
                                     <a href="javascript:void(0)">
                                         <i className="far fa-ellipsis-h-alt"></i>
                                     </a>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
