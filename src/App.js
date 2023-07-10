@@ -3,6 +3,7 @@ import Hero from './components/hero/Hero';
 import Indexation from './components/indexation/Indexation';
 import Navbar from './components/navbar/Navbar';
 import TopHeader from './components/topheader/TopHeader';
+import Indexation2 from './components/indexation/Indexation2';
 
 function App() {
   return (
@@ -36,7 +37,7 @@ function App() {
             <TopHeader />
             <Navbar />
             <Hero />
-            <Indexation />
+            <Indexation2 />
         </div>
 
     </div>
