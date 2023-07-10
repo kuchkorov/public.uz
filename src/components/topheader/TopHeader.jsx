@@ -1,7 +1,7 @@
 import React from 'react'
 import './topheader.css'
 import {BiPhone, BiSolidMap, BiLogoTwitter, BiSolidComment, BiHourglass, BiLogoFacebook, BiLogoInstagram, BiLogoLinkedinSquare } from "react-icons/bi";
-
+import logo from '../../assets/img/logo/pubic2.png'
 function TopHeader() {
   return (
     <div className='top-hedaer'>
@@ -12,7 +12,7 @@ function TopHeader() {
                             {/* <!-- brand logo --> */}
                             <div className="header__logo top-logo">
                                 <a href="index.html">
-                                    <img src="https://htmldemo.net/mitech/assets/images/logo/logo-dark.webp" aria-label="Mitech Logo" width="160" height="48" className="img-fluid" alt="" />
+                                    <img src={logo} aria-label="Mitech Logo" width="160" height="48" className="img-fluid" alt="" />
                                 </a>
                             </div>
 

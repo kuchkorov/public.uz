@@ -4,6 +4,9 @@ import Indexation from './components/indexation/Indexation';
 import Navbar from './components/navbar/Navbar';
 import TopHeader from './components/topheader/TopHeader';
 import Indexation2 from './components/indexation/Indexation2';
+import Journals from './components/journals/Journals';
+import Counter from './components/counter/Counter';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -38,6 +41,9 @@ function App() {
             <Navbar />
             <Hero />
             <Indexation2 />
+            <Journals />
+            <Counter />
+            <Footer />
         </div>
 
     </div>

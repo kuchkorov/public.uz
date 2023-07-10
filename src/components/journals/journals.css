@@ -1,0 +1,18 @@
+.title-our-jurnal {
+    color: #086AD8;
+    margin: 50px 0;
+    padding: 50px 0;
+}
+.our-jurnals .card {
+    border-radius: 0;
+    height: 100%;
+    cursor: pointer;
+}
+.our-jurnals {
+    background-color:aliceblue;
+    padding-bottom: 60px;
+}
+.our-jurnals .journal-name:hover {
+    color:crimson;
+    transition: all .2s ease;
+}

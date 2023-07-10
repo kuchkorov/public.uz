@@ -5,9 +5,10 @@
 }
 
 section {
-  margin: 60px 0;
-  padding: 60px 0;
+  margin-top: 60px;
+  padding-top: 60px;
 }
 .text-color-primary {
   color: #086AD8;
+  margin-bottom: 50px;
 }
