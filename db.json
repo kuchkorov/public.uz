@@ -1,0 +1,31 @@
+{
+  "journals": [
+    {
+      "id": "1",
+      "name": "+Central Asian Journal of Theoretical and Applied Sciences",
+      "img": "https://centralasianstudies.org/wp-content/uploads/2019/10/CAJOTAS-781x1024-1.png",
+      "title": "sergaer",
+      "desc": "aserg"
+    },
+    {
+      "id": "2",
+      "name": "Central Asian Journal of Medical and Natural Science",
+      "img": "https://centralasianstudies.org/wp-content/uploads/2019/10/CAJMNS-.png"
+    },
+    {
+      "id": "3",
+      "name": "Central Asian Journal of Literature, Philosophy and Culture",
+      "img": "https://centralasianstudies.org/wp-content/uploads/2019/10/CAJLPC-.png"
+    },
+    {
+      "id": "4",
+      "name": "Central Asian Journal Of Arts And Design",
+      "img": "https://centralasianstudies.org/wp-content/uploads/2019/10/CAJAD-.png"
+    },
+    {
+      "id": "5",
+      "name": "Central Asian Journal Of Mathematical Theory And Computer Sciences",
+      "img": "https://centralasianstudies.org/wp-content/uploads/2019/10/CAJMTCS.png"
+    }
+  ]
+}

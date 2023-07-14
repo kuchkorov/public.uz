@@ -1,0 +1,17 @@
+.form-component {
+    margin: 50px 0;
+}
+.form-component form {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+.contact-btn-primary {
+    background-color: rgb(184, 217, 233);
+    padding: 5px 12px; 
+    border: 1px solid #ddd;
+    font-weight: bold;
+}
+.contact-btn-primary:hover {
+    background-color: rgb(107, 197, 242);
+    color: azure;
+}

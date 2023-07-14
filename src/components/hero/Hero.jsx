@@ -13,7 +13,7 @@ function Hero() {
                                 <div className="software-innovation-hero-text">
                                     <p className="sub-heading">Maqolangizni tayyormi?</p>
                                     <h3>Siz uchun eng yaxshi tanlov</h3>
-                                    <h1 className="font-weight--reguler mb-30">Public.uz </h1>
+                                    <h1 className="font-weight--reguler mb-30">uznauka.uz </h1>
                                     <h6 className="info-heading">Turli xil konferensiya maqolalar chop etish va ularga xizmat ko'rsatish bo'yicha xizmatlarning to'liq to'plami. <br /> </h6>
                                     <div className="hero-button  mt-30">
                                         <Link to="/about" className="ht-btn ht-btn-md">Batafsil</Link>

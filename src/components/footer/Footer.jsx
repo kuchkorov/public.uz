@@ -7,7 +7,7 @@ import logo from '../../assets/img/logo/pubic2.png'
 function Footer() {
   return (
     <>
-        <div className="footer-area-wrapper  bg-grey">
+        <div className="footer-area-wrapper  bg-dark">
             <div className="footer-area section-space--ptb_80">
                 <div className="container">
                     <div className="row footer-widget-wrapper">
