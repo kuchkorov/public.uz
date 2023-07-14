@@ -9,6 +9,7 @@ import Journalspage from './pages/journals/Journalspage';
 import Blog from './pages/blog/Blog';
 import Services from './pages/services/Services';
 import Contact from './pages/contact/Contact';
+import Firstjournal from './pages/alljournals/first-journal/Firstjournal';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
                     <Route path='/blog' element={<Blog />} />
                     <Route path='/services' element={<Services />} />
                     <Route path='/contact' element={<Contact />} />
+                    <Route path='/firstjournal/:id' element={<Firstjournal />} />
                 </Routes>
                
             </div>

@@ -28,7 +28,7 @@ function Navbar() {
                                                 <li className="has-children has-children--multilevel-submenu">
                                                     <Link to="/journals"><span>Jurnal</span><BiChevronDown className='react-icons' /></Link>
                                                     <ul className="submenu">
-                                                        <li><a href="index-infotechno.html"><span>Jurnal 1</span></a></li>
+                                                        <li><Link to="/firstjournal"><span>Jurnal 1</span></Link></li>
                                                         <li><a href="index-infotechno.html"><span>Jurnal 2</span></a></li>
                                                         <li><a href="index-infotechno.html"><span>Jurnal 3</span></a></li>
                                                     </ul>
@@ -155,14 +155,14 @@ function Navbar() {
                                         <ul>
                                             <li>
                                                 <a href="#" className="">
-                                                    <img className="ls-flag" src={Uz} alt="en" title="English" style={{width: "40px"}} />
-                                                    <span className="wpml-ls-native text-white">O'zbek</span>
+                                                    <img className="ls-flag" src={Uz} alt="en" title="uzbek" style={{width: "40px"}} />
+                                                    <span className="wpml-ls-native text-white">O'zbekcha</span>
                                                 </a>
 
                                                 <ul className="ls-sub-menu">
                                                     <li className="">
                                                         <a href="#" className="">
-                                                            <img className="ls-flag" src={Ru} alt="en" title="Français" /><span className="wpml-ls-native">Рус</span>
+                                                            <img className="ls-flag" src={Ru} alt="en" title="rus" /><span className="wpml-ls-native">Русский</span>
                                                         </a>
                                                     </li>
 

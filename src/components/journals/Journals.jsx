@@ -1,4 +1,5 @@
 import {useEffect, useState} from "react";
+import { Link } from "react-router-dom";
 import "./journals.css";
 
 function Journals() {
@@ -19,6 +20,7 @@ function Journals() {
     })
     .catch((err)=> console.error(err))
   }, [])
+
   return (
     <section>
       <div className="our-jurnals">
@@ -37,6 +39,7 @@ function Journals() {
                      {value.name}
                     </h5>
                   </div>
+                <Link to={`/firstjournal/${value.id}`} className="btn btn-success">Batafsil</Link>
                 </div>
               </div>
               )
