@@ -1,5 +1,7 @@
 import React from 'react'
 import './navbar.css'
+import Uz from '../../assets/img/flag/uzb.png'
+import Ru from '../../assets/img/flag/rus.png'
 import { Link } from 'react-router-dom'
 
 import { BiChevronDown, BiChevronRight, BiSearchAlt2 } from "react-icons/bi";
@@ -8,7 +10,7 @@ import { BiChevronDown, BiChevronRight, BiSearchAlt2 } from "react-icons/bi";
 function Navbar() {
   return (
     <div>
-        <div className="header-bottom-wrap bg-theme-default d-md-block d-none header-sticky">
+        <div className="header-bottom-wrap bg-theme-default d-md-block d-none header-sticky" >
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
@@ -118,13 +120,13 @@ function Navbar() {
                                                     </ul>
                                                 </li>
                                                 <li className="has-children has-children--multilevel-submenu">
-                                                    <Link to="/contact"><span>Aloqa</span><BiChevronDown className='react-icons' /></Link>
+                                                    <Link to="/contact"><span>Aloqa</span></Link>
                                                     {/* <!-- multilevel submenu --> */}
-                                                    <ul className="submenu">
+                                                    {/* <ul className="submenu">
                                                         <li><a href="case-studies.html"><span>Case Studies 01</span></a></li>
                                                         <li><a href="case-studies-02.html"><span>Case Studies 02</span></a></li>
                                                         <li><a href="single-smart-vision.html"><span>Single Layout</span></a></li>
-                                                    </ul>
+                                                    </ul> */}
                                                 </li>
                                                 {/* <li className="has-children has-children--multilevel-submenu">
                                                     <a href="blog-list-large-image.html"><span>Blog</span><BiChevronDown className='react-icons' /></a>
@@ -149,7 +151,29 @@ function Navbar() {
                                     </div>
                                 </div>
 
-                                <div className="header-search-form ">
+                                <div className="language-menu">
+                                        <ul>
+                                            <li>
+                                                <a href="#" className="">
+                                                    <img className="ls-flag" src={Uz} alt="en" title="English" style={{width: "40px"}} />
+                                                    <span className="wpml-ls-native text-white">O'zbek</span>
+                                                </a>
+
+                                                <ul className="ls-sub-menu">
+                                                    <li className="">
+                                                        <a href="#" className="">
+                                                            <img className="ls-flag" src={Ru} alt="en" title="Français" /><span className="wpml-ls-native">Рус</span>
+                                                        </a>
+                                                    </li>
+
+                                                </ul>
+
+                                            </li>
+
+                                        </ul>
+                                </div>
+
+                                {/* <div className="header-search-form ">
                                     <form action="#" className="search-form-top style-03 ">
                                         <input className="search-field" type="text" placeholder="Qidiruv...."  />
                                         <button className="search-submit">
@@ -157,7 +181,8 @@ function Navbar() {
                                             
                                         </button>
                                     </form>
-                                </div>
+                                </div> */}
+                                
                             </div>
                         </div>
                     </div>
