@@ -10,6 +10,7 @@ import Blog from './pages/blog/Blog';
 import Services from './pages/services/Services';
 import Contact from './pages/contact/Contact';
 import Firstjournal from './pages/alljournals/first-journal/Firstjournal';
+import Pagenotfound from './pages/pagenotfound/Pagenotfound';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
                     <Route path='/services' element={<Services />} />
                     <Route path='/contact' element={<Contact />} />
                     <Route path='/firstjournal/:id' element={<Firstjournal />} />
+                    <Route path="*" element={<Pagenotfound />} />
                 </Routes>
                
             </div>
