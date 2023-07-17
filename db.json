@@ -1,3 +1,4 @@
+
 {
   "journals": [
     {
@@ -6,14 +7,14 @@
       "img": "https://centralasianstudies.org/wp-content/uploads/2019/10/CAJOTAS-781x1024-1.png",
       "title": "sergaer",
       "desc": "Журналы-клоны (в англоязычной литературе принято называть hi­jacked journals) представляют собой мошеннические веб-сайты, которые копируют название, ISSN и другие данные настоящего журнала, тем самым обманывая потенциальных",
-      "pdf": "./assets/pdf/1.pdf" 
+      "pdf": "https://www.gospodarkainnowacje.pl/index.php/poland/article/view/1499/1402" 
     },
     {
       "id": "2",
       "name": "Central Asian Journal of Medical and Natural Science",
       "img": "https://centralasianstudies.org/wp-content/uploads/2019/10/CAJMNS-.png",
       "desc": "Журналы-клоны (в англоязычной литературе принято называть hi­jacked journals) представляют собой мошеннические веб-сайты, которые копируют название, ISSN и другие данные настоящего журнала, тем самым обманывая потенциальных",
-      "pdf": "./assets/pdf/2.pdf" 
+      "pdf": "https://www.gospodarkainnowacje.pl/index.php/poland/article/view/1711/1601" 
     },
     {
       "id": "3",

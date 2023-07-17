@@ -3,9 +3,12 @@ import axios from 'axios'
 import { useParams } from 'react-router-dom'
 import './firstjounal.css'
 import Loading from '../../../components/loading/Loading'
+import Loading2 from '../../../components/loading/Loading2'
 
 function Firstjournal() {
     const [journals, setJournals] = useState([])
+    // const [journal, setJournal] = useState("")
+    const [spinner, setSpinner] = useState(false)
     const { id } = useParams();
 
     useEffect(() => {
@@ -14,10 +17,13 @@ function Firstjournal() {
             .catch((err) => console.error(err));
     }, [])
 
-    const pdfUrl = `http://localhost:5000/journals/${id}` ; 
+
+
+
+    // const pdfUrl = ; 
 
         const handleOpenPDF = () => {
-            window.open(pdfUrl, '', 'height=700,width=1000');
+            window.open(`http://localhost:5000/journals/${id}`, '', 'height=700,width=1000');
         };
 
     // console.log(journals);
@@ -53,10 +59,17 @@ function Firstjournal() {
                                                     <span className="journal-desc">
                                                         <p>{journals.desc}</p>
                                                     </span>
+                                                    <span>
+                                                        <iframe src={journals.pdf} width="600" height="400"></iframe>
+                                                    </span>
                                                 </span>
                                             </div>
                                             <div className="button-wrap mt-4">
-                                                <button className='journal-button-1'onClick={handleOpenPDF} ><span>Jurnalni ko'rish</span> </button>
+                                                <button className='journal-button-1' onClick={handleOpenPDF}>
+                                                    {spinner ? (<Loading2 />) : (
+                                                        <span>Jurnalni ko'rish</span>
+                                                    )}
+                                                </button>
                                                 <button className='journal-button-1'>Joriy nashr</button>
                                             </div>
                                         </div>
