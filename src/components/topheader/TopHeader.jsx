@@ -1,7 +1,7 @@
 import React from 'react'
 import './topheader.css'
 import {BiPhone, BiSolidMap, BiLogoTwitter, BiSolidComment, BiHourglass, BiLogoFacebook, BiLogoInstagram, BiLogoLinkedinSquare } from "react-icons/bi";
-import logo from '../../assets/img/logo/pubic2.png'
+import logo from '../../assets/img/logo/uznauka.png'
 function TopHeader() {
   return (
     <div className='top-hedaer'>

@@ -2,7 +2,7 @@ import React from 'react'
 
 import {BiMapAlt, BiPhoneIncoming, BiMailSend, BiLogoTwitter, BiLogoFacebook, BiLogoInstagram, BiLogoLinkedinSquare } from "react-icons/bi";
 
-import logo from '../../assets/img/logo/pubic2.png'
+import logo from '../../assets/img/logo/uznauka-dark.png'
 
 function Footer() {
   return (
