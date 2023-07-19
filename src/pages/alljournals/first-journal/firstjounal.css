@@ -1,8 +1,16 @@
+.article-main h3{
+  color: #086AD8;
+}
+
+
 .journal-name {
     cursor: pointer;
     margin-bottom: 20px;
 }
-
+.journal-hero-img img {
+  width: 100%;
+  height: 500px;
+}
 .journal-desc {
     text-align: justify;
 }
@@ -43,4 +51,19 @@
   .journal-button-1:hover span:after {
     opacity: 1;
     right: 0;
+  }
+  .journal-pdf iframe{
+    width: 100%;
+    height: 100vh;
+  }
+  .breadcrumb{
+    width: 25%;
+    margin: 20px 0;
+    /* background: #000; */
+    /* border: 1px solid #086AD8; */
+    padding: 5px;
+  }
+  .breadcrumb .Page {
+    position: absolute;
+    text-align: center;
   }

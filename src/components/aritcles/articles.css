@@ -1,0 +1,20 @@
+.name-article span {
+    color: brown;
+    font-weight: bold;
+}
+
+.autor-article span {
+    font-weight: bold;
+    margin: 10px 0;
+}
+.pdf-article {
+    width: 100%;
+    height: 600px;
+}
+.pdf-button {
+    padding: 4px 10px;
+    border-radius: 3px;
+    border: 0;
+    color: #fff;
+    background-color: rgb(78, 147, 207);
+}

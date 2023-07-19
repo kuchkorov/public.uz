@@ -156,13 +156,13 @@ function Navbar() {
                                             <li>
                                                 <a href="#" className="">
                                                     <img className="ls-flag" src={Uz} alt="en" title="uzbek" style={{width: "40px"}} />
-                                                    <span className="wpml-ls-native text-white">O'zbekcha</span>
+                                                    <span className="wpml-ls-native text-white">O'z</span>
                                                 </a>
 
                                                 <ul className="ls-sub-menu">
                                                     <li className="">
                                                         <a href="#" className="">
-                                                            <img className="ls-flag" src={Ru} alt="en" title="rus" /><span className="wpml-ls-native">Русский</span>
+                                                            <img className="ls-flag" src={Ru} alt="en" title="rus" /><span className="wpml-ls-native">Ру</span>
                                                         </a>
                                                     </li>
 

@@ -1,0 +1,15 @@
+.fst-italic {
+    color: #086AD8;
+}
+.fst-italic img {
+    width: 250px;
+    margin: 5px auto;
+    cursor: pointer;
+}
+.img-news img {
+    height: 85px;
+    width: 130px;
+    border: 1px solid hsla(0,0%,59%,.16);
+    border-radius: 6px;
+    object-fit: cover;
+}

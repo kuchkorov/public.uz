@@ -5,8 +5,13 @@
 }
 .our-jurnals .card {
     border-radius: 0;
-    height: 100%;
+    height: 500px;
     cursor: pointer;
+}
+.our-jurnals .card .card-img img {
+    width: 100%;
+    height: 300px;
+    /* object-fit: cover; */
 }
 .our-jurnals {
     background-color:aliceblue;

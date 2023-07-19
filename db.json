@@ -7,22 +7,57 @@
       "img": "https://centralasianstudies.org/wp-content/uploads/2019/10/CAJOTAS-781x1024-1.png",
       "title": "sergaer",
       "desc": "Журналы-клоны (в англоязычной литературе принято называть hi­jacked journals) представляют собой мошеннические веб-сайты, которые копируют название, ISSN и другие данные настоящего журнала, тем самым обманывая потенциальных",
-      "pdf": "https://www.gospodarkainnowacje.pl/index.php/poland/article/view/1499/1402" 
+      "pdf": "/pdf/1.pdf" 
     },
     {
       "id": "2",
       "name": "Central Asian Journal of Medical and Natural Science",
       "img": "https://centralasianstudies.org/wp-content/uploads/2019/10/CAJMNS-.png",
       "desc": "Журналы-клоны (в англоязычной литературе принято называть hi­jacked journals) представляют собой мошеннические веб-сайты, которые копируют название, ISSN и другие данные настоящего журнала, тем самым обманывая потенциальных",
-      "pdf": "https://www.gospodarkainnowacje.pl/index.php/poland/article/view/1711/1601" 
+      "pdf": "/pdf/2.pdf" 
     },
     {
       "id": "3",
       "name": "Central Asian Journal of Literature, Philosophy and Culture",
       "img": "https://centralasianstudies.org/wp-content/uploads/2019/10/CAJLPC-.png",
       "desc": "Журналы-клоны (в англоязычной литературе принято называть hi­jacked journals) представляют собой мошеннические веб-сайты, которые копируют название, ISSN и другие данные настоящего журнала, тем самым обманывая потенциальных",
-      "pdf": "./assets/pdf/3.pdf"
+      "pdf": "/pdf/3.pdf"
     }
-    
-  ]
+  ],
+  
+    "articles": [
+    {
+      "id": "1",
+      "name": "Ички ишлар органларида хизматга номзодларни танлаш ва жой-жойига қўйиш ҳамда кадрлар барқарорлигини таъминлаш борасидаги муаммолар",
+      "autor": "Тўлқинбой Жумано",
+      "pdf": "/pdf/1.pdf"
+    },
+    {
+      "id": "2",
+      "name": "O‘zbekistonda probatsiya institutining tashkil etilishi va xorijiy tajriba",
+      "autor": "Quvonch Qodirov",
+      "pdf": "/pdf/2.pdf"
+    },
+    {
+      "id": "3",
+      "name": "Маҳкумни жазо ўташни давом эттириш учун фуқароси бўлган давлатга топшириш масалалари",
+      "autor": "Олим Саидов",
+      "pdf": "/pdf/3.pdf"
+    },
+    {
+      "id": "4",
+      "name": "O‘zbekiston respublikasi markaziy saylov komissiyasining huquqiy holatini takomillashtirish",
+      "autor": "Sanjarbek Jumaniyazov , Bekzod Matyakubov",
+      "pdf": "/pdf/4.pdf"
+    },
+    {
+      "id": "5",
+      "name": "Iqtisodiyotni transformatsiya qilishda innovatsion faoliyatning o‘rni va ahamiyati",
+      "autor": "Maxidil Olimova , Moxirabonu Abdusattorova ",
+      "pdf": "/pdf/5.pdf"
+    }
+   ]
+  
+
 }
+
