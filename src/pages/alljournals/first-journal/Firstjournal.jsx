@@ -4,7 +4,6 @@ import { useParams, Link } from 'react-router-dom'
 import './firstjounal.css'
 import Loading from '../../../components/loading/Loading'
 import Modal from '../../../components/modal/Modal'
-import Footer from '../../../components/footer/Footer'
 import Articles from '../../../components/aritcles/Articles'
 import Rightside from '../../../components/rightside/Rightside'
 
@@ -116,7 +115,6 @@ function Firstjournal() {
                 </div>
 
             </div>
-            <Footer />
         </div>
     )
 }

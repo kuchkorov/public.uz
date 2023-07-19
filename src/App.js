@@ -11,6 +11,7 @@ import Services from './pages/services/Services';
 import Contact from './pages/contact/Contact';
 import Firstjournal from './pages/alljournals/first-journal/Firstjournal';
 import Pagenotfound from './pages/pagenotfound/Pagenotfound';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
                     <Route path='/firstjournal/:id' element={<Firstjournal />} />
                     <Route path="*" element={<Pagenotfound />} />
                 </Routes>
+                <Footer />
                
             </div>
         </div>

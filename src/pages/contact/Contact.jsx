@@ -1,6 +1,5 @@
 import React from 'react'
 import Yandexmaps from '../../components/yandexmaps/Yandexmaps';
-import Footer from "../../components/footer/Footer"
 import './contact.css'
 
 function Contact() {
@@ -54,7 +53,6 @@ function Contact() {
           </div>
         </div>
       </div>
-      <Footer />
 
     </div>
   )
