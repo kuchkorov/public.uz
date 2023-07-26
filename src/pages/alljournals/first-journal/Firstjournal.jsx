@@ -13,11 +13,20 @@ function Firstjournal() {
     const [showModal, setShowModal] = useState(false)
     const { id } = useParams();
 
+    //Journals
     useEffect(() => {
-        axios.get(`http://localhost:5000/journals/${id}`)
-            .then((res) => setJournals(res.data))
-            .catch((err) => console.error(err));
-    }, [])
+        const fetchJOurnalByID = async () => {
+          try {
+          const res = await axios.get(`http://localhost:8800/journals/${id}`)
+          setJournals(res.data)
+          } catch (error) {
+            console.error(error)
+          }
+        }
+        fetchJOurnalByID()
+      }, []);
+
+    
 
 
     const closeModal = () => {
@@ -61,12 +70,12 @@ function Firstjournal() {
                                                             <h5>{journals.name}</h5>
                                                         </div>
                                                         <span className="journal-desc">
-                                                            <p>{journals.desc}</p>
+                                                            <p>{journals.describtion}</p>
                                                         </span>
                                                         <span className='journal-pdf'>
 
                                                             {showModal && <Modal closeModal={closeModal}>
-                                                                <iframe src={journals.pdf} ></iframe>
+                                                                <iframe src={journals.file} ></iframe>
                                                             </Modal>}
                                                         </span>
                                                     </span>
@@ -83,30 +92,8 @@ function Firstjournal() {
                                     </div>
                                 </div>
                                 <Articles />
-
-                                <div className="breadcrumb">
-                                    <nav aria-label="Page navigation example">
-                                        <ul className="pagination">
-                                            <li className="page-item">
-                                                <a className="page-link" href="#" aria-label="Previous">
-                                                    <span aria-hidden="true">&laquo;</span>
-                                                </a>
-                                            </li>
-                                            <li className="page-item active"><a className="page-link" href="#">1</a></li>
-                                            <li className="page-item"><a className="page-link" href="#">2</a></li>
-                                            <li className="page-item"><a className="page-link" href="#">3</a></li>
-                                            <li className="page-item">
-                                                <a className="page-link" href="#" aria-label="Next">
-                                                    <span aria-hidden="true">&raquo;</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                </div>
                             </>
                         )}
-
-
                     </div>
 
                     {/* /////////////// RIGHT SIDE /////////// */}

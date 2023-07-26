@@ -1,5 +1,6 @@
 import {useEffect, useState} from "react";
 import { Link } from "react-router-dom";
+import axios from 'axios'
 import "./journals.css";
 
 function Journals() {
@@ -7,19 +8,17 @@ function Journals() {
   const [journals, setJournals] = useState([])
 
 
-  useEffect(()=> {
-    fetch('http://localhost:5000/journals')
-    .then((res) => {
-      if(!res.ok) {
-        throw new Error ("Unable to fetch data");
-      } else return res.json();
-    })
-    .then((res)=> {
-      // console.log(res);
-      return setJournals(res)
-    })
-    .catch((err)=> console.error(err))
-  }, [])
+  useEffect(() => {
+    const fetchAllJOurnals = async () => {
+      try {
+      const res = await axios.get("http://localhost:8800/journals")
+      setJournals(res.data)
+      } catch (error) {
+        console.error(error)
+      }
+    }
+    fetchAllJOurnals()
+  }, []);
 
   return (
     <section>
