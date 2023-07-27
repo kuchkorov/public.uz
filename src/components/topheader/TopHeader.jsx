@@ -1,5 +1,6 @@
 import React from 'react'
 import './topheader.css'
+import {Link} from 'react-router-dom'
 import {BiPhone, BiSolidMap, BiLogoTwitter, BiSolidComment, BiHourglass, BiLogoFacebook, BiLogoInstagram, BiLogoLinkedinSquare } from "react-icons/bi";
 import logo from '../../assets/img/logo/uznauka.png'
 function TopHeader() {
@@ -11,9 +12,9 @@ function TopHeader() {
                         <div className="header position-relative">
                             {/* <!-- brand logo --> */}
                             <div className="header__logo top-logo">
-                                <a href="index.html">
+                                <Link to="/">
                                     <img src={logo} aria-label="Mitech Logo" width="160" height="48" className="img-fluid" alt="" />
-                                </a>
+                                </Link>
                             </div>
 
                             <div className="header-right flexible-image-slider-wrap">

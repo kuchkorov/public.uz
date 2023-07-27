@@ -56,7 +56,26 @@
       "autor": "Maxidil Olimova , Moxirabonu Abdusattorova ",
       "pdf": "/pdf/5.pdf"
     }
-   ]
+   ],"blog": [
+    {
+      "id": "1",
+      "img": "https://inconference.uz/wp-content/uploads/2022/11/new_uzbekistan.jpg.webp",
+      "name": "Что такое Журналы-клоны?",
+      "desc": "Журналы-клоны (в англоязычной литературе принято называть hi­jacked journals) представляют собой мошеннические веб-сайты, которые копируют название, ISSN и другие данные настоящего журнала, тем самым обманывая потенциальных",
+      "date": "20.05.2023",
+      "keyword": "Maqola, jurnal",
+      "autor": "public.uz"
+    },
+    {
+      "id": "2",
+      "img": "https://inconference.uz/wp-content/uploads/2022/11/new_uzbekistan.jpg.webp",
+      "name": "Как работать с международным рейтингом Webometrics?",
+      "desc": "Четыре критерия оценки Webometrics Webometrics позволяет оценить престижность университетов мира и отследить их развитие. Рейтинг публикуется дважды в год уже 15 лет. Периодически количество вузов,",
+      "date": "15.06.2023",
+      "keyword": "konferensiya",
+      "autor": "public.uz"
+    }
+  ]
   
 
 }

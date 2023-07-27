@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom'
 import {BiMapAlt, BiPhoneIncoming, BiMailSend, BiLogoTwitter, BiLogoFacebook, BiLogoInstagram, BiLogoLinkedinSquare } from "react-icons/bi";
 
 import logo from '../../assets/img/logo/uznauka-dark.png'
@@ -13,7 +13,9 @@ function Footer() {
                     <div className="row footer-widget-wrapper">
                         <div className="col-lg-4 col-md-6 col-sm-6 footer-widget">
                             <div className="footer-widget__logo mb-30">
-                                <img src={logo} width="200" height="48" className="img-fluid" alt="" />
+                                <Link to="/">
+                                    <img src={logo} width="200" height="48" className="img-fluid" alt="" />
+                                </Link>
                             </div>
                             <ul className="footer-widget__list text-white">
                                 <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque et minima quas nisi earum. Est sed eveniet dolore repellendus qui.</p>
