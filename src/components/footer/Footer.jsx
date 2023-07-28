@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import {BiMapAlt, BiPhoneIncoming, BiMailSend, BiLogoTwitter, BiLogoFacebook, BiLogoInstagram, BiLogoLinkedinSquare } from "react-icons/bi";
+import {BiMapAlt, BiPhoneIncoming, BiMailSend, BiLogoTelegram, BiLogoFacebook, BiLogoInstagram, BiLogoLinkedinSquare } from "react-icons/bi";
 
 import logo from '../../assets/img/logo/uznauka-dark.png'
 
@@ -18,15 +18,15 @@ function Footer() {
                                 </Link>
                             </div>
                             <ul className="footer-widget__list text-white">
-                                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque et minima quas nisi earum. Est sed eveniet dolore repellendus qui.</p>
+                                <p>“UzNauka” kompaniyasi – ilmiy xizmatlar sohasida yuqori mavqega ega kompaniya bo‘lib, O‘zbekistonda ilm-fan va innovatsiyalarni keng targ’ib qiluvchi akademik platforma hisoblanadi. </p>
                             </ul>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6 footer-widget">
                             <h6 className="footer-widget__title mb-20">Bizning manzil</h6>
                             <ul className="footer-widget__list">
-                                <li><a href="#" className="hover-style-link text-white"><BiMapAlt style={{fontSize: "30px", marginRight: "8px", color: "#fff"}}  />O'zbekiston, Toshkent, pochta qutisi 4464, 100000</a></li>
-                                <li><a href="tel:123344556" className="hover-style-link text-white"><BiPhoneIncoming style={{fontSize: "30px", marginRight: "8px", color: "#fff"}} />(+998) 99-123-45-67</a></li>
-                                <li><a href="mailto:contact@aeroland.com" className="hover-style-link text-white"><BiMailSend style={{fontSize: "30px", marginRight: "8px", color: "#fff"}} />info@public.uz</a></li>
+                                <li><a href="#" className="hover-style-link text-white"><BiMapAlt style={{fontSize: "30px", marginRight: "8px", color: "#fff"}}  />Toshkernt shahar, A.Navoiy ko`chasi, 30-uy</a></li>
+                                <li><a href="tel:+998935271622" className="hover-style-link text-white"><BiPhoneIncoming style={{fontSize: "30px", marginRight: "8px", color: "#fff"}} />(+998)935271622</a></li>
+                                <li><a href="mailto:contact@aeroland.com" className="hover-style-link text-white"><BiMailSend style={{fontSize: "30px", marginRight: "8px", color: "#fff"}} />ilmiyizlanuvchi@gmail.com</a></li>
                             </ul>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6 footer-widget">
@@ -52,9 +52,8 @@ function Footer() {
                             <ul className="list ht-social-networks solid-rounded-icon">
 
                                 <li className="item">
-                                    <a href="https://twitter.com" target="_blank" aria-label="Twitter" className="social-link hint--bounce hint--top hint--primary text-white">
-                                        {/* <i className="fab fa-twitter "></i> */}
-                                        <BiLogoTwitter className='link-icon' />
+                                    <a href="https://t.me/uznauka_uz" target="_blank" aria-label="Twitter" className="social-link hint--bounce hint--top hint--primary text-white">
+                                        <BiLogoTelegram className='link-icon' />
                                     </a>
                                 </li>
                                 <li className="item">

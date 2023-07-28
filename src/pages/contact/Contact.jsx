@@ -46,7 +46,6 @@ function Contact() {
             </div>
             <div className="col-md-6">
               <div className="contact-img text-center">
-                {/* <img src="https://okh.uin-malang.ac.id/wp-content/uploads/2019/02/form-icon.png" width="300" alt="" /> */}
                 <Yandexmaps />
               </div>
             </div>

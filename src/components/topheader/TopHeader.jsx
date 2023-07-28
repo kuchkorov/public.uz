@@ -1,7 +1,7 @@
 import React from 'react'
 import './topheader.css'
 import {Link} from 'react-router-dom'
-import {BiPhone, BiSolidMap, BiLogoTwitter, BiSolidComment, BiHourglass, BiLogoFacebook, BiLogoInstagram, BiLogoLinkedinSquare } from "react-icons/bi";
+import {BiPhone, BiSolidMap, BiLogoTelegram, BiSolidComment, BiHourglass, BiLogoFacebook, BiLogoInstagram, BiLogoLinkedinSquare } from "react-icons/bi";
 import logo from '../../assets/img/logo/uznauka.png'
 function TopHeader() {
   return (
@@ -39,41 +39,43 @@ function TopHeader() {
                                                         <span className="fa fa-phone"><BiPhone /></span>
                                                     </div>
                                                     <div className="info-content">
-                                                        <h6 className="info-title">(+998) 99-123-45-67</h6>
-                                                        <div className="info-sub-title">info@public.uz</div>
+                                                        <h6 className="info-title">+998(93) 527-16-22</h6>
+                                                        <div className="info-sub-title">ilmiyizlanuvchi@gmail.com</div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="swiper-slide_1">
+                                            
+                                            {/* <div className="swiper-slide_1">
                                                 <div className="info-item">
                                                     <div className="info-icon">
                                                         <span className="fa fa-map-marker-alt"><BiSolidMap /></span>
                                                     </div>
                                                     <div className="info-content">
-                                                        <h6 className="info-title">Pochta qutisi 4464, 100000</h6>
+                                                        <h6 className="info-title">A.Navoiy ko`chasi, 30-uy</h6>
                                                         <div className="info-sub-title">O'zbekiston, Toshkent</div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div className="swiper-slide_1">
+                                            </div> */}
+                                            {/* <div className="swiper-slide_1">
                                                 <div className="info-item">
                                                     <div className="info-icon">
                                                         <span className="fa fa-clock"><BiHourglass /></span>
                                                     </div>
                                                     <div className="info-content">
-                                                        <h6 className="info-title">9:00AM - 18:00</h6>
+                                                        <h6 className="info-title">9:00 - 18:00</h6>
                                                         <div className="info-sub-title">Dushanbadan Shanbagacha</div>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> */}
+
                                             <div className="swiper-slide_1">
                                                 <div className="info-item">
                                                     <div className="info-icon">
                                                         <span className="fas fa-comment-alt"><BiSolidComment /></span>
                                                     </div>
                                                     <div className="info-content">
-                                                        <h6 className="info-title">Online 24/7</h6>
-                                                        <div className="info-sub-title">+122 123 4567</div>
+                                                        <h6 className="info-title">Onlayn 24/7</h6>
+                                                        <div className="info-sub-title">+998(93) 527-16-22</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -83,8 +85,8 @@ function TopHeader() {
                                     {/* <!-- Header Social Networks --> */}
                                     <div className="header-social-networks style-icons">
                                         <div className="inner">
-                                            <a className=" social-link hint--black hint--bottom-left" aria-label="Twitter" href="https://twitter.com" data-hover="Twitter" target="_blank">
-                                                <BiLogoTwitter className='social-icon' />
+                                            <a className=" social-link hint--black hint--bottom-left" aria-label="Telegram" href="https://t.me/uznauka_uz" data-hover="Twitter" target="_blank">
+                                                <BiLogoTelegram className='social-icon' />
                                             </a>
                                             <a className=" social-link hint--black hint--bottom-left" aria-label="Facebook" href="https://facebook.com" data-hover="Facebook" target="_blank">
                                                

@@ -18,6 +18,11 @@
         -ms-flex-align: center;
             align-items: center;
   }
+
+  .header-social-networks {
+    background: #000;
+    width: 50px;
+  }
   @media only screen and (min-width: 1200px) and (max-width: 1499px) {
     .header.default-menu-style .header-right-box {
       -webkit-flex-basis: 23%;
