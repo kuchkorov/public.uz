@@ -34,7 +34,7 @@ function Journals() {
                     <img src={value.img} alt="" className="img-fluid" />
                   </div>
                   <div className="card-body">
-                    <h5 className="journal-name">
+                    <h5 className="journal-name text-center">
                      {value.name}
                     </h5>
                   </div>

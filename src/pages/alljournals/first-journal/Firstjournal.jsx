@@ -38,7 +38,9 @@ function Firstjournal() {
         <div className=''>
             <div className='journal-hero'>
                 <div className="journal-hero-img">
-                    <img src="https://media.istockphoto.com/id/813136942/photo/selective-focus-of-stacking-magazine-place-on-table-in-living-room.webp?b=1&s=612x612&w=0&k=20&c=80XDdM-tI26jhuvMBZUsvJUxh97vb2FAE0pAfGHObAw=" alt="" />
+                    <div className="journal-hero-title">
+                        <h1 className='journal-hero-title-name'>Fan va jamiyat</h1>
+                    </div>
                 </div>
             </div>
             <div className='article-main container my-5'>
