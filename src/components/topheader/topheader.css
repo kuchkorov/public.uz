@@ -19,9 +19,9 @@
             align-items: center;
   }
 
-  .header-social-networks {
-    background: #000;
-    width: 50px;
+  .header-social-networks .inner{
+    /* background: #000; */
+    width: 300px;
   }
   @media only screen and (min-width: 1200px) and (max-width: 1499px) {
     .header.default-menu-style .header-right-box {
@@ -104,7 +104,8 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin: 0 -12px;
+    margin-left: 15rem;
+    /* margin: 0 -12px; */
     -webkit-box-pack: end;
     -webkit-justify-content: flex-end;
         -ms-flex-pack: end;

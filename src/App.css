@@ -2507,7 +2507,7 @@ input[type=checkbox] {
 }
 
 .top-info-slider__container {
-  cursor: w-resize;
+  cursor: pointer;
 }
 .top-info-slider__container .swiper-slide-active .info-item {
   border-left: none;
@@ -2516,12 +2516,13 @@ input[type=checkbox] {
 .header-social-networks.style-icons a {
   display: inline-block;
   padding: 0 10px;
-  font-size: 18px;
-  margin-top: 20px;
+  font-size: 30px;
+  margin-top: 5px;
 
 }
 
 .header-bottom-inner {
+  
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
