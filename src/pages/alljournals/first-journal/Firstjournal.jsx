@@ -15,6 +15,7 @@ function Firstjournal() {
 
     //Journals
     useEffect(() => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
         const fetchJOurnalByID = async () => {
           try {
           const res = await axios.get(`http://localhost:8800/journals/${id}`)
